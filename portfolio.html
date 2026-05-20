@@ -1,0 +1,888 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Contact | ImhoTech Solutions</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="assets/logo_imhotech.png">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+
+  <!-- Tailwind CSS -->
+  <link href="src/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-950 text-white min-h-screen flex flex-col">
+
+  <!-- ================= NAVBAR ================= -->
+  <nav class="w-full border-b border-gray-800 bg-gray-950/90 backdrop-blur sticky top-0 z-50">
+
+    <div class="container mx-auto px-6 py-5 flex items-center justify-between">
+
+      <!-- Logo -->
+      <a href="index.html" class="flex items-center gap-3">
+
+        <img
+          src="assets/logo_imhotech.png"
+          alt="logo"
+          class="w-12 h-12 object-cover"
+        />
+
+        <div>
+          <h1 class="text-2xl font-bold text-amber-400 uppercase">
+            ImhoTech
+          </h1>
+
+          <p class="text-sm text-gray-400">
+            Modern Digital Solutions
+          </p>
+        </div>
+
+      </a>
+
+      <!-- Desktop Menu -->
+      <ul class="hidden md:flex items-center gap-8 text-lg font-medium">
+
+        <li>
+          <a href="index.html"
+             class="hover:text-amber-400 transition duration-300">
+            Home
+          </a>
+        </li>
+
+        <li>
+          <a href="about.html"
+             class="hover:text-amber-400 transition duration-300">
+            About
+          </a>
+        </li>
+
+        <li>
+          <a href="services.html"
+             class="hover:text-amber-400 transition duration-300">
+            Services
+          </a>
+        </li>
+        <li>
+          <a href="portfolio.html"
+             class="  text-amber-400 border-b-2 border-amber-400 pb-1">
+            Portfolio
+          </a>
+        </li>
+        <li>
+          <a href="blog.html"
+             class="hover:text-amber-400 transition duration-300">
+            Blog
+          </a>
+        </li>
+
+        <li>
+          <a href="contact.html"
+             class=" hover:text-white bg-amber-200 text-black px-5 py-2 rounded-lg hover:scale-105 transition duration-300 ">
+            Contact
+          </a>
+        </li>
+
+      </ul>
+
+      <!-- Hamburger -->
+      <div id="hamburger" class="md:hidden text-3xl cursor-pointer">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+    </div>
+
+    <!-- Mobile Menu -->
+    <ul id="navitems"
+      class="hidden md:hidden flex-col gap-4 px-6 pb-6 text-lg bg-gray-900">
+
+      <li>
+        <a href="index.html" class="block hover:text-amber-400">
+          Home
+        </a>
+      </li>
+
+      <li>
+        <a href="about.html" class="block hover:text-amber-400">
+          About
+        </a>
+      </li>
+
+      <li>
+        <a href="services.html" class="block hover:text-amber-400">
+          Services
+        </a>
+      </li>
+
+      <li>
+        <a href="portfolio.html" class="block text-amber-400">
+          Portfolio
+        </a>
+      </li>
+       <li>
+        <a href="blog.html" class="block hover:text-amber-400">
+          Blog
+        </a>
+      </li>
+
+      <li>
+        <a href="contact.html"
+           class="inline-block  bg-amber-400 text-black px-4 py-2 rounded-lg ">
+          Contact
+        </a>
+      </li>
+
+    </ul>
+
+  </nav>
+
+  <!-- ================= MAIN ================= -->
+  <main class="flex-1">
+
+
+  
+    <!-- PORTFOLIO HERO SECTION -->
+<section class="py-20 bg-gray-950">
+
+  <div class="container mx-auto px-6 flex flex-col  md:flex-row lg:flex-row items-center gap-16">
+
+    <!-- LEFT CONTENT -->
+    <div class="flex-1">
+
+      <span class="text-amber-200 uppercase tracking-[4px] text-sm">
+        Our Portfolio
+      </span>
+
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mt-5">
+        Creative Projects &
+        <span class="text-amber-200">
+          Digital Solutions
+        </span>
+      </h1>
+
+      <p class="text-gray-400 text-lg leading-relaxed mt-6 max-w-xl">
+        Explore our collection of modern websites,
+        responsive interfaces, dashboards, and scalable
+        web applications designed to help businesses
+        grow digitally.
+      </p>
+
+      <!-- BUTTONS -->
+      <div class="flex flex-wrap gap-5 mt-8">
+
+        <a href="#portfolio"
+           class="bg-amber-200 text-black px-6 py-3 rounded-xl font-semibold hover:shadow-lg hover:shadow-amber-200/20 hover:transition hover:scale-105 duration-300">
+          View Projects
+        </a>
+
+        <a href="contact.html"
+           class="border border-amber-200 text-amber-200 px-6 py-3 rounded-xl font-semibold hover:bg-amber-200 hover:text-black transition duration-300">
+          Hire Us
+        </a>
+
+      </div>
+
+    </div>
+
+    <!-- RIGHT IMAGE -->
+    <div class="flex-1">
+
+      <img
+        src="assets/web_dev.png"
+        alt="Portfolio Image"
+        class="w-full h-auto object-cover"
+      >
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- PORTFOLIO INTRO -->
+<section class="py-16 bg-gray-900">
+
+  <div class="container mx-auto px-6 text-center">
+
+    <span class="text-amber-200 uppercase tracking-[3px] text-sm">
+      Featured Work
+    </span>
+
+    <h2 class="text-4xl md:text-5xl font-bold text-white mt-4">
+      Selected Projects
+    </h2>
+
+    <p class="text-gray-400 text-lg leading-relaxed max-w-3xl mx-auto mt-6">
+      A collection of web applications, business websites,
+      dashboards, and frontend interfaces built with
+      modern technologies and performance-focused design.
+    </p>
+
+  </div>
+
+</section>
+
+
+<!-- FILTER BUTTONS -->
+<section class="bg-gray-900 pb-12">
+
+  <div class="container mx-auto px-6">
+
+    <div class="flex flex-wrap justify-center gap-4 ">
+
+      <button class="bg-amber-200 text-black px-5 py-2 rounded-full font-medium cursor-pointer">
+        All
+      </button>
+
+      <button class="border border-gray-700 text-gray-300 px-5 py-2 rounded-full hover:border-amber-200 hover:text-amber-200 transition cursor-pointer">
+        Landing Pages
+      </button>
+
+      <button class="border border-gray-700 text-gray-300 px-5 py-2 rounded-full hover:border-amber-200 hover:text-amber-200 transition cursor-pointer">
+        Web Apps
+      </button>
+
+      <button class="border border-gray-700 text-gray-300 px-5 py-2 rounded-full hover:border-amber-200 hover:text-amber-200 transition cursor-pointer">
+        Dashboards
+      </button>
+
+      <button class="border border-gray-700 text-gray-300 px-5 py-2 rounded-full hover:border-amber-200 hover:text-amber-200 transition cursor-pointer">
+        Fullstack
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- PROJECTS GRID -->
+<section id="portfolio" class="py-20 bg-gray-950">
+
+  <div class="container mx-auto px-6">
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+      
+      <!-- PROJECT CARD -->
+      <div class="bg-gray-900 rounded-2xl overflow-hidden border border-gray-800 hover:border-amber-200 hover:-translate-y-2 transition-all duration-500">
+
+        <!-- IMAGE -->
+        <div class="overflow-hidden">
+
+          <img
+            src="assets/chem.png"
+            alt="Project"
+            class="w-full h-auto object-cover  cursor-pointer hover:scale-105 transition duration-500"
+          >
+
+        </div>
+
+        <!-- CONTENT -->
+        <div class="p-6">
+
+          <span class="text-amber-200 text-sm uppercase tracking-wider">
+            Fullstack Web App
+          </span>
+
+          <h3 class="text-2xl font-bold text-white mt-3">
+            ChemCoursework System
+          </h3>
+
+          <p class="text-gray-400 leading-relaxed mt-4">
+            A practical submission and grading platform
+            designed for students, supervisors, and lecturers.
+          </p>
+
+          <!-- TECH STACK -->
+          <div class="flex flex-wrap gap-2 mt-5">
+
+            <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm">
+              PHP
+            </span>
+                <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm">
+              Javascript
+            </span>
+
+            <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm">
+              MySQL
+            </span>
+
+            <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm">
+              Bootstrap
+            </span>
+
+          </div>
+
+          <!-- BUTTONS -->
+          <div class="flex gap-4 mt-6">
+
+            <a href="https://chem-coursework.onrender.com/" target="_parent"
+               class="bg-amber-200 text-black px-4 py-2 rounded-lg font-semibold hover:bg-amber-300 transition">
+              Live Demo
+            </a>
+
+            <a href="https://github.com/imhologhomhetheophilus/chem_coursework"
+               class="border border-amber-200 text-amber-200 px-4 py-2 rounded-lg hover:bg-amber-200 hover:text-black transition">
+              GitHub
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+      
+          <!-- PROJECT CARD -->
+      <div class="bg-gray-900 rounded-2xl overflow-hidden border border-gray-800 hover:border-amber-200 hover:-translate-y-2 transition-all duration-500">
+
+        <!-- IMAGE -->
+        <div class="overflow-hidden cursor-pointer">
+
+          <img
+            src="assets/eco.jpg"
+            alt="Project"
+            class="w-full h-60 object-cover hover:scale-105 transition duration-500"
+          >
+
+        </div>
+
+        <!-- CONTENT -->
+        <div class="p-6">
+
+          <span class="text-amber-200 text-sm uppercase tracking-wider">
+            Fullstack Web App
+          </span>
+
+          <h3 class="text-2xl font-bold text-white mt-3">
+            Inventory Management System
+          </h3>
+
+          <p class="text-gray-400 leading-relaxed mt-4">
+            A comprehensive inventory management system
+            designed to streamline stock tracking,
+            order management, and reporting for EcoUniversal services limited in Abuja Nigeria.
+          </p>
+
+          <!-- TECH STACK -->
+          <div class="flex flex-wrap gap-2 mt-5">
+
+            <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm">
+              PHP
+            </span>
+            <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm">
+              Javascript
+            </span>
+
+            <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm">
+              MySQL
+            </span>
+
+            <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm">
+              Vanilla Css
+            </span>
+
+          </div>
+
+          <!-- BUTTONS -->
+          <div class="flex gap-4 mt-6">
+
+            <a href="https://ecouniversal-warehouse-system.onrender.com/dashboard.php" target="_parent"
+               class="bg-amber-200 text-black px-4 py-2 rounded-lg font-semibold hover:bg-amber-300 transition">
+              Live Demo
+            </a>
+
+            <a href="https://github.com/imhologhomhetheophilus/ecouniversal_warehouse_system" target="_parent"
+               class="border border-amber-200 text-amber-200 px-4 py-2 rounded-lg hover:bg-amber-200 hover:text-black transition">
+              GitHub
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+      <!-- PROJECT CARD -->
+      <div class="bg-gray-900 rounded-2xl overflow-hidden border border-gray-800 hover:border-amber-200 hover:-translate-y-2 transition-all duration-500">
+
+        <!-- IMAGE -->
+        <div class="overflow-hidden">
+
+          <img
+            src="assets/project1.png"
+            alt="Project"
+            class="w-full h-60 object-cover hover:scale-105 transition duration-500"
+          >
+
+        </div>
+
+        <!-- CONTENT -->
+        <div class="p-6">
+
+          <span class="text-amber-200 text-sm uppercase tracking-wider">
+            Fullstack Web App
+          </span>
+
+          <h3 class="text-2xl font-bold text-white mt-3">
+            E-commerce Platform
+          </h3>
+
+          <p class="text-gray-400 leading-relaxed mt-4">
+            A modern e-commerce platform
+            designed for seamless online shopping experiences.
+          </p>
+
+          <!-- TECH STACK -->
+          <div class="flex flex-wrap gap-2 mt-5">
+
+            <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm">
+              Node.js
+            </span>
+
+            <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm">
+              MongoDB
+            </span>
+
+            <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm">
+              JavaScript
+            </span>
+            <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm">
+              Postman Api Testing
+            </span>
+
+          </div>
+
+          <!-- BUTTONS -->
+          <div class="flex gap-4 mt-6">
+
+            <a href="#"
+               class="bg-amber-200 text-black px-4 py-2 rounded-lg font-semibold hover:bg-amber-300 transition">
+              Live Demo
+            </a>
+
+            <a href="#"
+               class="border border-amber-200 text-amber-200 px-4 py-2 rounded-lg hover:bg-amber-200 hover:text-black transition">
+              GitHub
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+      <!-- PROJECT CARD -->
+      <div class="bg-gray-900 rounded-2xl overflow-hidden border border-gray-800 hover:border-amber-200 hover:-translate-y-2 transition-all duration-500">
+
+        <!-- IMAGE -->
+        <div class="overflow-hidden">
+
+          <img
+            src="assets/project1.png"
+            alt="Project"
+            class="w-full h-60 object-cover hover:scale-105 transition duration-500"
+          >
+
+        </div>
+
+        <!-- CONTENT -->
+        <div class="p-6">
+
+          <span class="text-amber-200 text-sm uppercase tracking-wider">
+            Fullstack Web App
+          </span>
+
+          <h3 class="text-2xl font-bold text-white mt-3">
+            Imhotech Portfolio Website
+          </h3>
+
+          <p class="text-gray-400 leading-relaxed mt-4">
+            A modern portfolio website showcasing ImhoTech's
+            projects, services, and company information.
+          </p>
+
+          <!-- TECH STACK -->
+          <div class="flex flex-wrap gap-2 mt-5">
+
+            <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm">
+              HTML
+            </span>
+
+            <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm">
+              Tailwind CSS
+            </span>
+
+            <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm">
+              JavaScript
+            </span>
+            <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm">
+              Node.js
+            </span>
+            <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm">
+              MOngoDB
+            </span>
+
+          </div>
+
+          <!-- BUTTONS -->
+          <div class="flex gap-4 mt-6">
+
+            <a href="#"
+               class="bg-amber-200 text-black px-4 py-2 rounded-lg font-semibold hover:bg-amber-300 transition">
+              Live Demo
+            </a>
+
+            <a href="#"
+               class="border border-amber-200 text-amber-200 px-4 py-2 rounded-lg hover:bg-amber-200 hover:text-black transition">
+              GitHub
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+      <!-- PROJECT CARD -->
+      <div class="bg-gray-900 rounded-2xl overflow-hidden border border-gray-800 hover:border-amber-200 hover:-translate-y-2 transition-all duration-500">
+
+        <!-- IMAGE -->
+        <div class="overflow-hidden">
+
+          <img
+            src="assets/project1.png"
+            alt="Project"
+            class="w-full h-60 object-cover hover:scale-105 transition duration-500"
+          >
+
+        </div>
+
+        <!-- CONTENT -->
+        <div class="p-6">
+
+          <span class="text-amber-200 text-sm uppercase tracking-wider">
+            Fullstack Web App
+          </span>
+
+          <h3 class="text-2xl font-bold text-white mt-3">
+            ChemCoursework System
+          </h3>
+
+          <p class="text-gray-400 leading-relaxed mt-4">
+            A practical submission and grading platform
+            designed for students, supervisors, and lecturers.
+          </p>
+
+          <!-- TECH STACK -->
+          <div class="flex flex-wrap gap-2 mt-5">
+
+            <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm">
+              PHP
+            </span>
+
+            <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm">
+              MySQL
+            </span>
+
+            <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm">
+              Bootstrap
+            </span>
+
+          </div>
+
+          <!-- BUTTONS -->
+          <div class="flex gap-4 mt-6">
+
+            <a href="#"
+               class="bg-amber-200 text-black px-4 py-2 rounded-lg font-semibold hover:bg-amber-300 transition">
+              Live Demo
+            </a>
+
+            <a href="#"
+               class="border border-amber-200 text-amber-200 px-4 py-2 rounded-lg hover:bg-amber-200 hover:text-black transition">
+              GitHub
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+      <!-- PROJECT CARD -->
+      <div class="bg-gray-900 rounded-2xl overflow-hidden border border-gray-800 hover:border-amber-200 hover:-translate-y-2 transition-all duration-500">
+
+        <!-- IMAGE -->
+        <div class="overflow-hidden">
+
+          <img
+            src="assets/project1.png"
+            alt="Project"
+            class="w-full h-60 object-cover hover:scale-105 transition duration-500"
+          >
+
+        </div>
+
+        <!-- CONTENT -->
+        <div class="p-6">
+
+          <span class="text-amber-200 text-sm uppercase tracking-wider">
+            Fullstack Web App
+          </span>
+
+          <h3 class="text-2xl font-bold text-white mt-3">
+            ChemCoursework System
+          </h3>
+
+          <p class="text-gray-400 leading-relaxed mt-4">
+            A practical submission and grading platform
+            designed for students, supervisors, and lecturers.
+          </p>
+
+          <!-- TECH STACK -->
+          <div class="flex flex-wrap gap-2 mt-5">
+
+            <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm">
+              PHP
+            </span>
+
+            <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm">
+              MySQL
+            </span>
+
+            <span class="bg-gray-800 text-gray-300 px-3 py-1 rounded-full text-sm">
+              Bootstrap
+            </span>
+
+          </div>
+
+          <!-- BUTTONS -->
+          <div class="flex gap-4 mt-6">
+
+            <a href="#"
+               class="bg-amber-200 text-black px-4 py-2 rounded-lg font-semibold hover:bg-amber-300 transition">
+              Live Demo
+            </a>
+
+            <a href="#"
+               class="border border-amber-200 text-amber-200 px-4 py-2 rounded-lg hover:bg-amber-200 hover:text-black transition">
+              GitHub
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- STATISTICS SECTION -->
+<section class="py-20 bg-gray-900">
+
+  <div class="container mx-auto px-6">
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+      <div class="bg-gray-950 p-8 rounded-2xl text-center border border-gray-800">
+        <h3 class="text-5xl font-bold text-amber-200">
+          10+
+        </h3>
+        <p class="text-gray-400 mt-3">
+          Projects Completed
+        </p>
+      </div>
+
+      <div class="bg-gray-950 p-8 rounded-2xl text-center border border-gray-800">
+        <h3 class="text-5xl font-bold text-amber-200">
+          10+
+        </h3>
+        <p class="text-gray-400 mt-3">
+          Happy Clients
+        </p>
+      </div>
+
+      <div class="bg-gray-950 p-8 rounded-2xl text-center border border-gray-800">
+        <h3 class="text-5xl font-bold text-amber-200">
+          5+
+        </h3>
+        <p class="text-gray-400 mt-3">
+          Years Experience
+        </p>
+      </div>
+
+      <div class="bg-gray-950 p-8 rounded-2xl text-center border border-gray-800">
+        <h3 class="text-5xl font-bold text-amber-200">
+          100%
+        </h3>
+        <p class="text-gray-400 mt-3">
+          Responsive Design
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- CTA SECTION -->
+<section class="py-24 bg-gray-950">
+
+  <div class="container mx-auto px-6 text-center">
+
+    <span class="text-amber-200 uppercase tracking-[3px] text-sm">
+      Start Your Project
+    </span>
+
+    <h2 class="text-4xl md:text-5xl font-bold text-white mt-5">
+      Have a Project in Mind?
+    </h2>
+
+    <p class="text-gray-400 text-lg leading-relaxed max-w-2xl mx-auto mt-6">
+      Let's build modern, scalable, and user-focused
+      digital solutions together.
+    </p>
+
+    <a href="contact.html"
+       class="inline-block bg-amber-200 text-black px-8 py-4 rounded-xl font-semibold mt-8 hover:bg-amber-300 transition duration-300 hover:shadow-2xl hover:shadow-amber-200/20 hover:scale-105">
+      Start a Project
+    </a>
+
+  </div>
+
+</section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="bg-black border-t border-gray-800">
+
+    <div class="container mx-auto px-6 py-12">
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+
+        <!-- Brand -->
+        <div>
+
+          <h2 class="text-3xl font-bold text-amber-400 mb-4">
+            ImhoTech
+          </h2>
+
+          <p class="text-gray-400 leading-relaxed">
+            Building modern websites, scalable systems, and digital
+            experiences for businesses worldwide.
+          </p>
+
+        </div>
+
+        <!-- Links -->
+        <div>
+
+          <h3 class="text-xl font-semibold mb-4">
+            Quick Links
+          </h3>
+
+          <ul class="space-y-3 text-gray-400">
+
+            <li>
+              <a href="index.html" class="hover:text-amber-400">
+                Home
+              </a>
+            </li>
+
+            <li>
+              <a href="about.html" class="hover:text-amber-400">
+                About
+              </a>
+            </li>
+
+            <li>
+              <a href="services.html" class="hover:text-amber-400">
+                Services
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <!-- Contact -->
+        <div>
+
+          <h3 class="text-xl font-semibold mb-4">
+            Contact
+          </h3>
+
+          <div class="space-y-3 text-gray-400">
+
+            <p>
+              <i class="fa-solid fa-envelope text-amber-400 mr-2"></i>
+              imhologhomhetheophilu.com
+            </p>
+
+            <p>
+              <i class="fa-solid fa-phone text-amber-400 mr-2"></i>
+              +234 810 797 6604
+            </p>
+
+            <p>
+              <i class="fa-solid fa-location-dot text-amber-400 mr-2"></i>
+              Abuja, Nigeria
+            </p>
+
+          </div>
+
+        </div>
+        <div class=" flex gap-5 text-2xl text-amber-200 justify-center md:justify-start mt-6 md:mt-0">
+           <a href="https://www.facebook.com/Jobjacobtheo">
+              <i class="fa-brands fa-facebook text-3xl"></i>
+            </a>
+
+            <a href="https://www.instagram.com/theophilusimhologhomhe?igsh=MXc0ZXk4dDlycmpzag==">
+              <i class="fa-brands fa-instagram text-3xl"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/imhologhomhe-theophilus-18319b22a?utm_source=share_via&utm_content=profile&utm_medium=member_android">
+              <i class="fa-brands fa-linkedin text-3xl"></i>
+            </a>
+
+            <a href="https://github.com/imhologhomhetheophilus?tab=repositories">
+              <i class="fa-brands fa-github text-3xl"></i>
+            </a>
+        </div>
+
+      </div>
+
+      <!-- Bottom -->
+      <div class="border-t border-gray-800 mt-10 pt-6 text-center text-gray-500">
+
+        <p>
+          © 2026 ImhoTech Solutions. All Rights Reserved.
+        </p>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  <!-- ================= MOBILE MENU SCRIPT ================= -->
+  <script src="script.js">
+ 
+
+  </script>
+
+</body>
+</html>

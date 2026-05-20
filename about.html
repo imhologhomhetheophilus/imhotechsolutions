@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>About Us | ImhoTech Solutions</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="assets/logo_imhotech.png" type="image/x-icon">
+
+  <!-- Tailwind CSS -->
+  <link href="src/output.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+</head>
+
+<body class="bg-gray-900 text-white min-h-screen flex flex-col">
+
+<!-- ================= NAVBAR ================= -->
+<nav class="bg-gray-950 border-b border-gray-800 sticky top-0 z-50">
+
+  <div class="max-w-7xl mx-auto px-4 py-5 flex items-center justify-between">
+
+    <!-- Logo -->
+    <div class="flex items-center gap-3">
+      <img src="assets/logo_imhotech.png"
+      alt="logo"
+      class="w-12 h-12 object-cover">
+
+      <h1 class="text-2xl font-bold text-amber-200">
+        ImhoTech
+      </h1>
+    </div>
+
+    <!-- Desktop Menu -->
+    <ul class="hidden md:flex items-center gap-8 text-lg">
+
+      <li>
+        <a href="index.html"
+        class="hover:text-amber-200 transition duration-300">
+          Home
+        </a>
+      </li>
+
+      <li>
+        <a href="about.html"
+        class="text-amber-200 border-b-2 border-amber-200 pb-1">
+          About
+        </a>
+      </li>
+
+      <li>
+        <a href="services.html"
+        class="hover:text-amber-200 transition duration-300">
+          Services
+        </a>
+      </li>
+
+      <li>
+        <a href="portfolio.html"
+        class="hover:text-amber-200 transition duration-300">
+          Portfolio
+        </a>
+      </li>
+        <li>
+          <a href="blog.html"
+             class="hover:text-amber-400 transition duration-300">
+            Blog
+          </a>
+        </li>
+
+      <li>
+        <a href="contact.html"
+        class="bg-amber-200 text-black px-5 py-2 rounded-lg hover:scale-105 transition duration-300">
+          Contact
+        </a>
+      </li>
+
+    </ul>
+
+    <!-- Hamburger -->
+    <div class="md:hidden text-3xl cursor-pointer" id="hamburger">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+
+  </div>
+
+ <!-- Mobile Menu -->
+    <ul id="navitems"
+      class="hidden md:hidden flex-col gap-4 px-6 pb-6 text-lg bg-gray-900">
+
+      <li>
+        <a href="index.html" class="block hover:text-amber-400">
+          Home
+        </a>
+      </li>
+
+      <li>
+        <a href="about.html" class=" text-amber-400">
+          About
+        </a>
+      </li>
+
+      <li>
+        <a href="services.html" class="block hover:text-amber-400">
+          Services
+        </a>
+      </li>
+
+      <li>
+        <a href="portfolio.html" class="block hover:text-amber-400">
+          Portfolio
+        </a>
+      </li>
+       <li>
+
+        <a href="blog.html" class="block hover:text-amber-400">
+          Blog
+        </a>
+      </li>
+
+      <li>
+        <a href="contact.html"
+           class="inline-block  bg-amber-400 text-black px-4 py-2 rounded-lg">
+          Contact
+        </a>
+      </li>
+
+    </ul>
+
+
+</nav>
+
+<!-- ================= MAIN ================= -->
+<main class="flex-1">
+
+<!-- ================= HERO ================= -->
+<section class="py-24">
+
+  <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-16 items-center">
+
+    <!-- Text -->
+    <div>
+
+      <p class="text-amber-200 uppercase tracking-widest mb-4">
+        About ImhoTech
+      </p>
+
+      <h1 class="text-5xl font-bold leading-tight mb-8">
+        Building Modern Digital Solutions
+        For Businesses
+      </h1>
+
+      <p class="text-gray-300 text-lg leading-8 mb-8">
+        ImhoTech Solutions is a technology-driven brand focused on
+        building responsive websites, scalable applications,
+        and modern user experiences that help businesses grow.
+      </p>
+
+      <a href="contact.html"
+      class="bg-amber-200 text-black px-6 py-3 rounded-lg inline-block hover:scale-105 transition duration-300 hover:shadow-lg hover:shadow-amber-200/20">
+        Start a Project
+      </a>
+
+    </div>
+
+    <!-- Image -->
+    <div>
+      <img src="assets/web_dev.png"
+      alt="about image"
+      class="w-full object-cover animate-pulse">
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= WHO WE ARE ================= -->
+<section class="py-20 bg-gray-950">
+
+  <div class="max-w-5xl mx-auto px-4 text-center">
+
+    <h2 class="text-4xl font-bold text-amber-200 mb-8">
+      Who We Are
+    </h2>
+
+    <p class="text-gray-300 text-lg leading-8">
+      ImhoTech Solutions combines frontend engineering,
+      backend development, responsive design,
+      and performance optimization to create
+      clean and scalable digital products.
+
+      We focus on modern technologies and user-centered
+      solutions that deliver real business value.
+    </p>
+
+  </div>
+
+</section>
+
+<!-- ================= MISSION & VISION ================= -->
+<section class="py-20">
+
+  <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 cursor-pointer">
+
+    <!-- Mission -->
+    <div class="bg-gray-800 p-8 rounded-2xl shadow-lg hover:-translate-y-2 transition-all duration-300">
+
+      <i class="fa-solid fa-bullseye text-5xl text-amber-200 mb-6"></i>
+
+      <h3 class="text-3xl font-semibold mb-4">
+        Our Mission
+      </h3>
+
+      <p class="text-gray-300 leading-8">
+        To help businesses grow through innovative,
+        scalable, and responsive digital solutions.
+      </p>
+
+    </div>
+
+    <!-- Vision -->
+    <div class="bg-gray-800 p-8 rounded-2xl shadow-lg hover:-translate-y-2 transition-all duration-300">
+
+      <i class="fa-solid fa-eye text-5xl text-amber-200 mb-6"></i>
+
+      <h3 class="text-3xl font-semibold mb-4">
+        Our Vision
+      </h3>
+
+      <p class="text-gray-300 leading-8">
+        To become a trusted technology brand known
+        for delivering impactful digital experiences globally.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="py-20 bg-gray-950">
+
+  <div class="max-w-7xl mx-auto px-4 cursor-pointer">
+
+    <h2 class="text-4xl font-bold text-center text-amber-200 mb-14">
+      What We Do
+    </h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- Card -->
+      <div class="bg-gray-800 p-8 rounded-2xl hover:-translate-y-2 transition-all duration-300">
+
+        <i class="fa-solid fa-code text-5xl text-amber-200 mb-6"></i>
+
+        <h3 class="text-2xl font-semibold mb-4">
+          Web Development
+        </h3>
+
+        <p class="text-gray-300 leading-7">
+          Modern responsive websites and scalable applications.
+        </p>
+
+      </div>
+
+      <!-- Card -->
+      <div class="bg-gray-800 p-8 rounded-2xl hover:-translate-y-2 transition-all duration-300">
+
+        <i class="fa-solid fa-mobile-screen text-5xl text-amber-200 mb-6"></i>
+
+        <h3 class="text-2xl font-semibold mb-4">
+          Responsive Design
+        </h3>
+
+        <p class="text-gray-300 leading-7">
+          Mobile-first layouts optimized for all devices.
+        </p>
+
+      </div>
+
+      <!-- Card -->
+      <div class="bg-gray-800 p-8 rounded-2xl hover:-translate-y-2 transition-all duration-300">
+
+        <i class="fa-solid fa-server text-5xl text-amber-200 mb-6"></i>
+
+        <h3 class="text-2xl font-semibold mb-4">
+          Backend Development
+        </h3>
+
+        <p class="text-gray-300 leading-7">
+          Secure and scalable backend architecture for applications.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= WHY CHOOSE US ================= -->
+<section class="py-20">
+
+  <div class="max-w-7xl mx-auto px-4 cursor-pointer">
+
+    <h2 class="text-4xl font-bold text-center text-amber-200 mb-14">
+      Why Choose Us
+    </h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <div class="bg-gray-800 p-6 rounded-xl">
+        ✔ Modern Technologies
+      </div>
+
+      <div class="bg-gray-800 p-6 rounded-xl">
+        ✔ Clean & Scalable Code
+      </div>
+
+      <div class="bg-gray-800 p-6 rounded-xl">
+        ✔ Mobile-First Design
+      </div>
+
+      <div class="bg-gray-800 p-6 rounded-xl">
+        ✔ Fast Performance
+      </div>
+
+      <div class="bg-gray-800 p-6 rounded-xl">
+        ✔ Responsive Layouts
+      </div>
+
+      <div class="bg-gray-800 p-6 rounded-xl">
+        ✔ User-Focused Solutions
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= TECHNOLOGIES ================= -->
+<section class="py-20 bg-gray-950">
+
+  <div class="max-w-7xl mx-auto px-4 cursor-pointer">
+
+    <h2 class="text-4xl font-bold text-center text-amber-200 mb-14">
+      Technologies We Use
+    </h2>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
+
+      <div class="bg-gray-800 p-6 rounded-xl text-center">
+        <i class="fa-brands fa-html5 text-5xl text-amber-200 mb-4"></i>
+        <h3>HTML</h3>
+      </div>
+
+      <div class="bg-gray-800 p-6 rounded-xl text-center">
+        <i class="fa-brands fa-css3-alt text-5xl text-amber-200 mb-4"></i>
+        <h3>CSS</h3>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl text-center">
+        <i class="fa-brands fa-css3-alt text-5xl text-amber-200 mb-4"></i>
+        <h3>Tailwind CSS</h3>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl text-center">
+        <i class="fa-brands fa-css3-alt text-5xl text-amber-200 mb-4"></i>
+        <h3>Preprocessor Sass</h3>
+      </div>
+
+      <div class="bg-gray-800 p-6 rounded-xl text-center">
+        <i class="fa-brands fa-js text-5xl text-amber-200 mb-4"></i>
+        <h3>JavaScript</h3>
+      </div>
+
+      <div class="bg-gray-800 p-6 rounded-xl text-center">
+        <i class="fa-brands fa-react text-5xl text-amber-200 mb-4"></i>
+        <h3>React</h3>
+      </div>
+
+      <div class="bg-gray-800 p-6 rounded-xl text-center">
+        <i class="fa-brands fa-node-js text-5xl text-amber-200 mb-4"></i>
+        <h3>Node.js</h3>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl text-center">
+        <i class="fa-brands fa-node-js text-5xl text-amber-200 mb-4"></i>
+        <h3>Express</h3>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl text-center">
+        <i class="fa-brands fa-node-js text-5xl text-amber-200 mb-4"></i>
+        <h3>PHP Laravel</h3>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= FOUNDER ================= -->
+<section class="py-20">
+
+  <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-16 items-center">
+
+    <!-- Image -->
+    <div>
+      <img src="assets/job.png"
+      alt="Founder"
+      class="rounded-2xl">
+    </div>
+
+    <!-- Content -->
+    <div>
+
+      <h2 class="text-4xl font-bold text-amber-200 mb-8">
+        Meet The Founder
+      </h2>
+
+      <p class="text-gray-300 text-lg leading-8 mb-8">
+        
+          Founded by <strong>Imhologhomhe Theophilus (Job Jacob), a Computer Science graduate and Full-Stack Developer</strong>,
+          ImhoTech Solutions focuses on crafting modern, high-performance, and responsive digital experiences
+          with clean design and scalable architecture.
+
+      </p>
+
+      <!-- Socials -->
+      <div class="flex gap-6 text-2xl ">
+
+         
+              <a href="https://www.facebook.com/Jobjacobtheo"
+                 class="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center hover:bg-amber-400 hover:text-black transition duration-300">
+
+                <i class="fa-brands fa-facebook-f"></i>
+
+              </a>
+
+              <a href="https://twitter.com/yourhandle"
+                 class="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center hover:bg-amber-400 hover:text-black transition duration-300">
+
+                <i class="fa-brands fa-twitter"></i>
+
+              </a>
+
+              <a href="https://www.instagram.com/theophilusimhologhomhe?igsh=MXc0ZXk4dDlycmpzag=="
+                 class="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center hover:bg-amber-400 hover:text-black transition duration-300">
+
+                <i class="fa-brands fa-instagram"></i>
+
+              </a>
+
+              <a href="https://www.linkedin.com/in/imhologhomhe-theophilus-18319b22a?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                 class="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center hover:bg-amber-400 hover:text-black transition duration-300">
+
+                <i class="fa-brands fa-linkedin-in"></i>
+
+              </a>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="py-20 bg-amber-200">
+
+  <div class="max-w-4xl mx-auto px-4 text-center">
+
+    <h2 class="text-4xl font-bold text-black mb-6">
+      Ready To Build Something Great?
+    </h2>
+
+    <p class="text-gray-800 text-lg mb-8">
+      Let’s transform your ideas into modern digital solutions.
+    </p>
+
+    <a href="contact.html"
+    class="bg-black text-white px-8 py-3 rounded-lg inline-block hover:scale-105 transition duration-300">
+      Contact Us
+    </a>
+
+  </div>
+
+</section>
+
+</main>
+
+
+ <!-- ================= FOOTER ================= -->
+  <footer class="bg-black border-t border-gray-800 py-12">
+
+    <div class="max-w-7xl mx-auto px-4">
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+
+        <!-- Brand -->
+        <div>
+
+          <h2 class="text-3xl font-bold text-amber-200 mb-4">
+            ImhoTech
+          </h2>
+
+          <p class="text-gray-400 leading-7">
+
+            Building scalable and modern web solutions
+            for businesses and individuals.
+
+          </p>
+
+        </div>
+
+        <!-- Links -->
+        <div>
+
+          <h3 class="text-xl font-semibold mb-5">
+            Quick Links
+          </h3>
+
+          <ul class="space-y-3 text-gray-400">
+
+            <li><a href="/src/index.html" class="hover:text-amber-200">Home</a></li>
+            <li><a href="/src/about.html" class="hover:text-amber-200">About</a></li>
+            <li><a href="/src/services.html" class="hover:text-amber-200">Services</a></li>
+            <li><a href="#portfolio" class="hover:text-amber-200">Portfolio</a></li>
+            <li><a href="/src/contact.html" class="hover:text-amber-200">Contact</a></li>
+
+          </ul>
+
+        </div>
+
+        <!-- Social -->
+        <div>
+
+          <h3 class="text-xl font-semibold mb-5">
+            Follow Us
+          </h3>
+
+          <div class="flex gap-5 text-2xl text-amber-200">
+
+            <a href="https://www.facebook.com/Jobjacobtheo">
+              <i class="fa-brands fa-facebook text-3xl"></i>
+            </a>
+
+            <a href="https://www.instagram.com/theophilusimhologhomhe?igsh=MXc0ZXk4dDlycmpzag==">
+              <i class="fa-brands fa-instagram text-3xl"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/imhologhomhe-theophilus-18319b22a?utm_source=share_via&utm_content=profile&utm_medium=member_android">
+              <i class="fa-brands fa-linkedin text-3xl"></i>
+            </a>
+
+            <a href="https://github.com/imhologhomhetheophilus?tab=repositories">
+              <i class="fa-brands fa-github text-3xl"></i>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Bottom -->
+      <div class="border-t border-gray-800 mt-2 mb-19 pt-8 text-center text-gray-500">
+
+        © 2026 ImhoTech Solutions. All rights reserved.
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+<!-- ================= SCRIPT ================= -->
+<script src="script.js">
+
+
+
+</script>
+
+</body>
+</html>
