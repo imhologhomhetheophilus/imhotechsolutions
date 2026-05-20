@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Blog | ImhoTech Solutions</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="/assets/logo_imhotech.png" type="image/x-icon">
+
+  <!-- Tailwind CSS -->
+  <link href="/src/output.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+</head>
+
+<body class="bg-gray-950 text-white min-h-screen flex flex-col">
+
+<!-- ================= NAVBAR ================= -->
+<nav class="bg-gray-950 border-b border-gray-800 sticky top-0 z-50">
+
+  <div class="max-w-7xl mx-auto px-4 py-5 flex items-center justify-between">
+
+    <!-- Logo -->
+    <div class="flex items-center gap-3">
+      <img src="/assets/logo_imhotech.png"
+      alt="logo"
+      class="w-12 h-12 object-cover">
+
+      <h1 class="text-2xl font-bold text-amber-200">
+        ImhoTech
+      </h1>
+    </div>
+
+    <!-- Desktop Menu -->
+    <ul class="hidden md:flex items-center gap-8 text-lg">
+
+      <li>
+        <a href="/src/index.html"
+        class="hover:text-amber-200 transition duration-300">
+          Home
+        </a>
+      </li>
+
+      <li>
+        <a href="/src/about.html"
+        class="hover:text-amber-200 transition duration-300">
+          About
+        </a>
+      </li>
+
+      <li>
+        <a href="/src/services.html"
+        class="hover:text-amber-200 transition duration-300">
+          Services
+        </a>
+      </li>
+
+      <li>
+        <a href="/src/portfolio.html"
+        class="hover:text-amber-200 transition duration-300">
+          Portfolio
+        </a>
+      </li>
+      <li>
+        <a href="/src/blog.html"
+        class="border-b-2 border-amber-200 transition duration-300">
+          Blog
+        </a>
+      </li>
+
+      <li>
+        <a href="/src/contact.html"
+        class="bg-amber-200 text-black px-5 py-2 rounded-lg hover:scale-105 transition duration-300">
+          Contact
+        </a>
+      </li>
+
+    </ul>
+
+    <!-- Hamburger -->
+    <div class="md:hidden text-3xl cursor-pointer" id="hamburger">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+
+  </div>
+
+ <!-- Mobile Menu -->
+    <ul id="navitems"
+      class="hidden md:hidden flex-col gap-4 px-6 pb-6 text-lg bg-gray-900">
+
+      <li>
+        <a href="/src/index.html" class="block hover:text-amber-400">
+          Home
+        </a>
+      </li>
+
+      <li>
+        <a href="/src/about.html" class=" text-amber-400">
+          About
+        </a>
+      </li>
+
+      <li>
+        <a href="/src/services.html" class="block hover:text-amber-400">
+          Services
+        </a>
+      </li>
+
+      <li>
+        <a href="/src/portfolio.html" class="block hover:text-amber-400">
+          Portfolio
+        </a>
+      </li>
+       <li>
+        <a href="/src/blog.html" class="block  border-2 border-amber-400">
+          Blog
+        </a>
+      </li>
+
+      <li>
+        <a href="/src/contact.html"
+           class="inline-block  bg-amber-400 text-black px-4 py-2 rounded-lg">
+          Contact
+        </a>
+      </li>
+
+    </ul>
+
+
+</nav>
+
+
+<main class="flex-1">
+
+<section id="blog" class="py-20 ">
+
+  <div class="max-w-6xl mx-auto px-4">
+
+    <!-- Header -->
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-400">
+        Latest Articles
+      </h2>
+      <p class="text-gray-400 mt-2">
+        Insights, tutorials, and development updates from Imhotech
+      </p>
+    </div>
+
+    <!-- Blog Grid -->
+    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3 ">
+
+      <!-- Blog Card 1 -->
+      <article class="bg-gray-900 py-5 px-4 cursor-pointer rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300 hover:scale-105">
+        <img src="./assets/blog1.jpg" class="w-full h-48 object-cover" alt="Full Stack Project">
+
+        <div class="p-5">
+          <h3 class="text-xl font-semibold text-gray-900">
+            Building My First Full-Stack Project
+          </h3>
+
+          <p class="text-gray-600 mt-2 text-sm">
+            A breakdown of how I used HTML, Tailwind CSS, Node.js, and Express to build a real-world application.
+          </p>
+
+          <a href="#" class="inline-block mt-4 text-blue-600 font-medium hover:underline">
+            Read More →
+          </a>
+        </div>
+      </article>
+
+      <!-- Blog Card 2 -->
+      <article class="bg-gray-900  py-5 px-4 rounded-xl shadow-md overflow-hidden cursor-pointer hover:shadow-xl transition duration-300 hover:scale-105">
+        <img src="./assets/blog2.jpg" class="w-full h-48 object-cover" alt="JavaScript Tips">
+
+        <div class="p-5">
+          <h3 class="text-xl font-semibold text-gray-900">
+            5 JavaScript Tricks Every Developer Should Know
+          </h3>
+
+          <p class="text-gray-600 mt-2 text-sm">
+            Improve your coding speed and logic with these practical JavaScript techniques.
+          </p>
+
+          <a href="#" class="inline-block mt-4 text-blue-600 font-medium hover:underline">
+            Read More →
+          </a>
+        </div>
+      </article>
+
+      <!-- Blog Card 3 -->
+      <article class="bg-gray-900 py-5 px-4 cursor-pointer rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300 hover:scale-105">
+        <img src="./assets/blog3.jpg" class="w-full h-48 object-cover" alt="Tailwind UI">
+
+        <div class="p-5">
+          <h3 class="text-xl font-semibold text-gray-900">
+            Designing Modern UI with Tailwind CSS
+          </h3>
+
+          <p class="text-gray-600 mt-2 text-sm">
+            Learn how to build fast, responsive, and clean user interfaces using utility-first CSS.
+          </p>
+
+          <a href="#" class="inline-block mt-4 text-blue-600 font-medium hover:underline">
+            Read More →
+          </a>
+        </div>
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+ </main>
+
+
+ <!-- ================= FOOTER ================= -->
+  <footer class="bg-black border-t border-gray-800 py-12">
+
+    <div class="max-w-7xl mx-auto px-4">
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+
+        <!-- Brand -->
+        <div>
+
+          <h2 class="text-3xl font-bold text-amber-200 mb-4">
+            ImhoTech
+          </h2>
+
+          <p class="text-gray-400 leading-7">
+
+            Building scalable and modern web solutions
+            for businesses and individuals.
+
+          </p>
+
+        </div>
+
+        <!-- Links -->
+        <div>
+
+          <h3 class="text-xl font-semibold mb-5">
+            Quick Links
+          </h3>
+
+          <ul class="space-y-3 text-gray-400">
+
+            <li><a href="/src/index.html" class="hover:text-amber-200">Home</a></li>
+            <li><a href="/src/about.html" class="hover:text-amber-200">About</a></li>
+            <li><a href="/src/services.html" class="hover:text-amber-200">Services</a></li>
+            <li><a href="/src/portfolio.html" class="hover:text-amber-200">Portfolio</a></li>
+            <li><a href="/src/contact.html" class="hover:text-amber-200">Contact</a></li>
+
+          </ul>
+
+        </div>
+
+        <!-- Social -->
+        <div>
+
+          <h3 class="text-xl font-semibold mb-5">
+            Follow Us
+          </h3>
+
+          <div class="flex gap-5 text-2xl text-amber-200">
+
+            <a href="https://www.facebook.com/Jobjacobtheo">
+              <i class="fa-brands fa-facebook text-3xl"></i>
+            </a>
+
+            <a href="https://www.instagram.com/theophilusimhologhomhe?igsh=MXc0ZXk4dDlycmpzag==">
+              <i class="fa-brands fa-instagram text-3xl"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/imhologhomhe-theophilus-18319b22a?utm_source=share_via&utm_content=profile&utm_medium=member_android">
+              <i class="fa-brands fa-linkedin text-3xl"></i>
+            </a>
+
+            <a href="https://github.com/imhologhomhetheophilus?tab=repositories">
+              <i class="fa-brands fa-github text-3xl"></i>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Bottom -->
+      <div class="border-t border-gray-800 mt-2 mb-19 pt-8 text-center text-gray-500">
+
+        © 2026 ImhoTech Solutions. All rights reserved.
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+<!-- ================= SCRIPT ================= -->
+<script src="/src/script.js">
+
+
+
+</script>
+
+</body>
+</html>

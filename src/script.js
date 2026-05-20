@@ -1,37 +1,23 @@
-let containerHam = document.querySelector("#hamburger");
-let containerCancel = document.querySelector("#cancel");
-let containerUl = document.querySelector("#navitems");
+  const hamburger = document.querySelector("#hamburger");
+    const mobileMenu = document.querySelector("#mobileMenu");
+    const navitems = document.querySelector("#navitems");
 
-let navLinks = document.querySelectorAll("#navitems a");
-
-
-// Open Menu
-containerHam.addEventListener("click", () => {
-    containerUl.classList.remove("hidden");
-
-    containerHam.classList.add("hidden");
-    containerCancel.classList.remove("hidden");
-});
-
-
-// Close Menu with X
-containerCancel.addEventListener("click", () => {
-    closeMenu();
-});
-
-
-// Close Menu when any link is clicked
-navLinks.forEach(link => {
-    link.addEventListener("click", () => {
-        closeMenu();
+    hamburger.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
     });
-});
+    
 
+    hamburger.addEventListener("click", () => {
+      navitems.classList.toggle("hidden");
+      navitems.classList.toggle("flex");
+    });
 
-// Reusable function
-function closeMenu() {
-    containerUl.classList.add("hidden");
+    // Close menu when link clicked
+    const links = document.querySelectorAll("#navitems a");
 
-    containerHam.classList.remove("hidden");
-    containerCancel.classList.add("hidden");
-}
+    links.forEach(link => {
+      link.addEventListener("click", () => {
+        navitems.classList.add("hidden");
+        navitems.classList.remove("flex");
+      });
+    });
