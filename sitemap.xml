@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://imhotechsolutionservices.onrender.com/</loc>
+  </url>
+
+  <url>
+    <loc>https://imhotechsolutionservices.onrender.com/login.php</loc>
+  </url>
+
+  <url>
+    <loc>https://imhotechsolutionservices.onrender.com/dashboard.php</loc>
+  </url>
+
+  <url>
+    <loc>https://imhotechsolutionservices.onrender.com/add_item.php</loc>
+  </url>
+
+  <url>
+    <loc>https://imhotechsolutionservices.onrender.com/transfer.php</loc>
+  </url>
+
+  <url>
+    <loc>https://imhotechsolutionservices.onrender.com/transfer_history.php</loc>
+  </url>
+
+</urlset>
