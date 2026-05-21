@@ -85,13 +85,16 @@
 
     <!-- Logo -->
     <a href="index.html" class="flex items-center gap-3">
-      <img 
+ <img
   src="assets/logo_imhotech.webp"
-  alt="logo"
-  width="96"
-  height="96"
+  srcset="
+    assets/logo_imhotech.webp 1x,
+    assets/logo_imhotech@2x.webp 2x
+  "
+  alt="ImhoTech logo"
+  width="48"
+  height="48"
   class="w-12 h-12"
-  loading="lazy"
   decoding="async"
 />
       <div>
@@ -148,7 +151,7 @@
         ImhoTech Solutions is a modern software engineering brand focused on designing and building scalable web applications, responsive websites, and business systems using modern technologies.
       </p>
 
-      <a href="contact.html" class="bg-amber-200 text-black px-6 py-3 rounded-lg inline-block">
+      <a href="contact.html" class="bg-amber-200 text-black px-6 py-3 rounded-xl font-semibold hover:shadow-lg hover:shadow-amber-200/20 hover:transition hover:scale-105 duration-300">
         Start a Project
       </a>
 
