@@ -168,11 +168,15 @@
       <!-- Logo -->
       <a href="index.html" class="flex items-center gap-3">
 
-        <img
-          src="assets/logo_imhotech.webp"
-          alt="logo"
-          class="w-12 h-12 object-cover"
-        />
+        <img 
+  src="assets/logo_imhotech.webp"
+  alt="logo"
+  width="96"
+  height="96"
+  class="w-12 h-12"
+  loading="lazy"
+  decoding="async"
+/>
 
         <div>
           <h1 class="text-2xl font-bold text-amber-400 uppercase">
@@ -331,11 +335,19 @@
     <!-- RIGHT IMAGE -->
     <div class="flex-1">
 
-      <img
-        src="assets/web_dev.webp"
-        alt="Portfolio Image"
-        class="w-full h-auto object-cover"
-      >
+    <picture>
+  <source srcset="assets/web_dev.webp" type="image/webp">
+
+  <img 
+    src="assets/web_dev.webp"
+    alt="web development illustration"
+    width="1200"
+    height="800"
+    class="w-full h-auto"
+    loading="lazy"
+    decoding="async"
+  >
+</picture>
 
     </div>
 
@@ -983,30 +995,58 @@
           </div>
 
         </div>
-        <div class=" flex gap-5 text-2xl text-amber-200 justify-center md:justify-start mt-6 md:mt-0">
-           <a href="https://www.facebook.com/Jobjacobtheo">
-              <i class="fa-brands fa-facebook text-3xl"></i>
-            </a>
+        <div class="flex gap-5 text-2xl text-amber-200 justify-center md:justify-start mt-6 md:mt-0">
 
-            <a href="https://www.instagram.com/theophilusimhologhomhe?igsh=MXc0ZXk4dDlycmpzag==">
-              <i class="fa-brands fa-instagram text-3xl"></i>
-            </a>
+  <!-- Facebook -->
+  <a 
+    href="https://www.facebook.com/Jobjacobtheo"
+    aria-label="Visit ImhoTech Facebook profile"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="hover:text-white transition duration-300"
+  >
+    <i class="fa-brands fa-facebook text-3xl"></i>
+  </a>
 
-            <a href="https://www.linkedin.com/in/imhologhomhe-theophilus-18319b22a?utm_source=share_via&utm_content=profile&utm_medium=member_android">
-              <i class="fa-brands fa-linkedin text-3xl"></i>
-            </a>
+  <!-- Instagram -->
+  <a 
+    href="https://www.instagram.com/theophilusimhologhomhe"
+    aria-label="Visit ImhoTech Instagram profile"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="hover:text-white transition duration-300"
+  >
+    <i class="fa-brands fa-instagram text-3xl"></i>
+  </a>
 
-            <a href="https://github.com/imhologhomhetheophilus?tab=repositories">
-              <i class="fa-brands fa-github text-3xl"></i>
-            </a>
-        </div>
+  <!-- LinkedIn -->
+  <a 
+    href="https://www.linkedin.com/in/imhologhomhe-theophilus-18319b22a"
+    aria-label="Visit ImhoTech LinkedIn profile"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="hover:text-white transition duration-300"
+  >
+    <i class="fa-brands fa-linkedin text-3xl"></i>
+  </a>
 
-      </div>
+  <!-- GitHub -->
+  <a 
+    href="https://github.com/imhologhomhetheophilus"
+    aria-label="Visit ImhoTech GitHub repositories"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="hover:text-white transition duration-300"
+  >
+    <i class="fa-brands fa-github text-3xl"></i>
+  </a>
+
+</div>
 
       <!-- Bottom -->
       <div class="border-t border-gray-800 mt-10 pt-6 text-center text-gray-500">
 
-        <p>
+        <p class="text-sm text-gray-300">
           © 2026 ImhoTech Solutions. All Rights Reserved.
         </p>
 
