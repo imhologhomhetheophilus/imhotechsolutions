@@ -63,29 +63,48 @@
 <body class="bg-gray-950 text-white">
 
 <!-- ================= NAVBAR ================= -->
-<nav class="sticky top-0 bg-gray-950 border-b border-gray-800 z-50">
+<nav class="w-full border-b border-gray-800 bg-gray-950/90 backdrop-blur sticky top-0 z-50">
+  <div class="container mx-auto px-6 py-5 flex items-center justify-between">
 
-  <div class="max-w-7xl mx-auto px-4 py-5 flex justify-between items-center">
+    <!-- Logo -->
+    <a href="index.html" class="flex items-center gap-3">
+      <img src="assets/logo_imhotech.png" class="w-12 h-12" alt="logo"/>
+      <div>
+        <h1 class="text-2xl font-bold text-amber-400">ImhoTech</h1>
+        <p class="text-sm text-gray-400">Modern Digital Solutions</p>
+      </div>
+    </a>
 
-    <div class="flex items-center gap-3">
-      <img src="/assets/logo_imhotech.png" class="w-10 h-10" alt="ImhoTech Logo">
-      <h1 class="text-xl font-bold text-amber-400">ImhoTech Solutions</h1>
-    </div>
+    <!-- Desktop Menu -->
+    <ul class="hidden md:flex items-center gap-8 text-lg">
 
-    <ul class="hidden md:flex gap-8">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="services.html" class="text-amber-400 border-b border-amber-400">Services</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="blog.html">Blog</a></li>
-      <li><a href="contact.html" class="bg-amber-400 text-black px-4 py-2 rounded-lg">Contact</a></li>
+      <li><a href="index.html" class="hover:text-amber-400">Home</a></li>
+      <li><a href="about.html" class="hover:text-amber-400">About</a></li>
+      <li><a href="services.html" class=" bg-amber-400 text-black px-5 py-2 rounded-lg"">Services</a></li>
+      <li><a href="portfolio.html" class="hover:text-amber-400">Portfolio</a></li>
+      <li><a href="blog.html" class="hover:text-amber-400">Blog</a></li>
+      <li><a href="contact.html" class="hover:text-amber-400 ">Contact</a></li>
+
     </ul>
+
+    <!-- Mobile -->
+    <div class="md:hidden text-3xl cursor-pointer" id="hamburger">
+      <i class="fa-solid fa-bars"></i>
+    </div>
 
   </div>
 
-</nav>
+  <ul id="navitems" class="hidden md:hidden flex-col gap-4 px-6 pb-6 bg-gray-900">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html" class="text-amber-400">Services</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
 
-<!-- ================= HERO ================= -->
+<!-- ================= MAIN ================= -->
+ <main class="flex-1">
 <header class="max-w-6xl mx-auto px-6 py-24 text-center">
 
   <p class="text-amber-400 uppercase tracking-widest">Our Expertise</p>
@@ -177,15 +196,122 @@
   </a>
 
 </section>
+</main>
 
-<!-- ================= FOOTER ================= -->
-<footer class="bg-black border-t border-gray-800 py-10 text-center">
+!-- ================= FOOTER ================= -->
+  <footer class="bg-black border-t border-gray-800">
 
-  <p class="text-gray-500">
-    © 2026 ImhoTech Solutions. All Rights Reserved.
-  </p>
+    <div class="container mx-auto px-6 py-12">
 
-</footer>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+
+        <!-- Brand -->
+        <div>
+
+          <h2 class="text-3xl font-bold text-amber-400 mb-4">
+            ImhoTech
+          </h2>
+
+          <p class="text-gray-400 leading-relaxed">
+            Building modern websites, scalable systems, and digital
+            experiences for businesses worldwide.
+          </p>
+
+        </div>
+
+        <!-- Links -->
+        <div>
+
+          <h3 class="text-xl font-semibold mb-4">
+            Quick Links
+          </h3>
+
+          <ul class="space-y-3 text-gray-400">
+
+            <li>
+              <a href="index.html" class="hover:text-amber-400">
+                Home
+              </a>
+            </li>
+
+            <li>
+              <a href="about.html" class="hover:text-amber-400">
+                About
+              </a>
+            </li>
+
+            <li>
+              <a href="services.html" class="hover:text-amber-400">
+                Services
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <!-- Contact -->
+        <div>
+
+          <h3 class="text-xl font-semibold mb-4">
+            Contact
+          </h3>
+
+          <div class="space-y-3 text-gray-400">
+
+            <p>
+              <i class="fa-solid fa-envelope text-amber-400 mr-2"></i>
+              imhologhomhetheophilu.com
+            </p>
+
+            <p>
+              <i class="fa-solid fa-phone text-amber-400 mr-2"></i>
+              +234 810 797 6604
+            </p>
+
+            <p>
+              <i class="fa-solid fa-location-dot text-amber-400 mr-2"></i>
+              Abuja, Nigeria
+            </p>
+
+          </div>
+
+        </div>
+        <div class=" flex gap-5 text-2xl text-amber-200 justify-center md:justify-start mt-6 md:mt-0">
+           <a href="https://www.facebook.com/Jobjacobtheo">
+              <i class="fa-brands fa-facebook text-3xl"></i>
+            </a>
+
+            <a href="https://www.instagram.com/theophilusimhologhomhe?igsh=MXc0ZXk4dDlycmpzag==">
+              <i class="fa-brands fa-instagram text-3xl"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/imhologhomhe-theophilus-18319b22a?utm_source=share_via&utm_content=profile&utm_medium=member_android">
+              <i class="fa-brands fa-linkedin text-3xl"></i>
+            </a>
+
+            <a href="https://github.com/imhologhomhetheophilus?tab=repositories">
+              <i class="fa-brands fa-github text-3xl"></i>
+            </a>
+        </div>
+
+      </div>
+
+      <!-- Bottom -->
+      <div class="border-t border-gray-800 mt-10 pt-6 text-center text-gray-500">
+
+        <p>
+          © 2026 ImhoTech Solutions. All Rights Reserved.
+        </p>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  <!-- ================= SCRIPT ================= -->
+  <script src="script.js"></script>
 
 </body>
 </html>

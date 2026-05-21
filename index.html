@@ -85,27 +85,45 @@
 <body class="bg-gray-950 text-white">
 
 <!-- ================= NAVBAR ================= -->
-<nav class="sticky top-0 bg-gray-950 border-b border-gray-800 z-50">
+<nav class="w-full border-b border-gray-800 bg-gray-950/90 backdrop-blur sticky top-0 z-50">
+  <div class="container mx-auto px-6 py-5 flex items-center justify-between">
 
-  <div class="max-w-7xl mx-auto px-4 py-5 flex justify-between items-center">
+    <!-- Logo -->
+    <a href="index.html" class="flex items-center gap-3">
+      <img src="assets/logo_imhotech.png" class="w-12 h-12" alt="logo"/>
+      <div>
+        <h1 class="text-2xl font-bold text-amber-400">ImhoTech</h1>
+        <p class="text-sm text-gray-400">Modern Digital Solutions</p>
+      </div>
+    </a>
 
-    <div class="flex items-center gap-3">
-      <img src="/assets/logo_imhotech.png" class="w-10 h-10" alt="ImhoTech Logo">
-      <h1 class="text-xl font-bold text-amber-200">ImhoTech Solutions</h1>
-    </div>
+    <!-- Desktop Menu -->
+    <ul class="hidden md:flex items-center gap-8 text-lg">
 
-    <ul class="hidden md:flex gap-8">
-      <li><a href="#home" class="text-amber-200">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="blog.html">Blog</a></li>
-      <li><a href="contact.html" class="bg-amber-200 text-black px-4 py-2 rounded-lg">Contact</a></li>
+      <li><a href="index.html" class=" bg-amber-400 text-black px-5 py-2 rounded-lg">Home</a></li>
+      <li><a href="about.html" class="hover:text-amber-400">About</a></li>
+      <li><a href="services.html" class="hover:text-amber-400">Services</a></li>
+      <li><a href="portfolio.html" class="hover:text-amber-400">Portfolio</a></li>
+      <li><a href="blog.html" class="hover:text-amber-400">Blog</a></li>
+      <li><a href="contact.html" class="hover:text-amber-400">Contact</a></li>
+
     </ul>
+
+    <!-- Mobile -->
+    <div class="md:hidden text-3xl cursor-pointer" id="hamburger">
+      <i class="fa-solid fa-bars"></i>
+    </div>
 
   </div>
 
-</nav>
+  <ul id="navitems" class="hidden md:hidden flex-col gap-4 px-6 pb-6 bg-gray-900">
+    <li><a href="index.html" class="text-amber-400">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="contact.html" >Contact</a></li>
+  </ul>
 
 <!-- ================= HERO ================= -->
  <main class="flex-1">
