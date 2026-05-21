@@ -9,139 +9,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- =========================
-       SEO TITLE
+       TITLE (SEO POWER KEYWORD)
   ========================== -->
-  <title>
-    ImhoTech Solutions | Scalable Web Applications & Software Development
-  </title>
+  <title>ImhoTech Solutions | Scalable Web Applications & Software Development</title>
 
   <!-- =========================
-       SEO DESCRIPTION
+       META DESCRIPTION
   ========================== -->
-  <meta
-    name="description"
-    content="ImhoTech Solutions is a modern software and web development brand focused on building scalable web applications, responsive websites, business systems, admin dashboards, and digital solutions for businesses and individuals."
-  >
+  <meta name="description" content="ImhoTech Solutions builds scalable web applications, modern business systems, admin dashboards, and responsive websites using React, Node.js, and modern web technologies.">
 
-  <!-- =========================
-       SEO KEYWORDS
-  ========================== -->
-  <meta
-    name="keywords"
-    content="
-      ImhoTech Solutions,
-      web development company,
-      software development,
-      scalable web applications,
-      frontend developer,
-      backend developer,
-      full-stack developer,
-      React developer,
-      Node.js developer,
-      Express.js developer,
-      Tailwind CSS,
-      responsive website design,
-      admin dashboard,
-      business website,
-      portfolio website,
-      digital solutions
-    "
-  >
+  <meta name="keywords" content="web development, software development, full stack developer, react developer, nodejs developer, express js, tailwind css, scalable web apps, business software, admin dashboard, nigeria developer">
 
-  <!-- AUTHOR -->
   <meta name="author" content="ImhoTech Solutions">
 
-  <!-- SEO INDEX -->
   <meta name="robots" content="index, follow">
   <meta name="googlebot" content="index, follow">
 
   <!-- =========================
        CANONICAL URL
   ========================== -->
-  <link
-    rel="canonical"
-    href="https://imhotechsolutionservices.onrender.com"
-  >
+  <link rel="canonical" href="https://imhotechsolutionservices.onrender.com">
 
   <!-- =========================
-       OPEN GRAPH (FACEBOOK)
+       OPEN GRAPH (SOCIAL SEO)
   ========================== -->
-  <meta
-    property="og:title"
-    content="ImhoTech Solutions | Scalable Web & Software Development"
-  >
-
-  <meta
-    property="og:description"
-    content="We build scalable web applications, responsive websites, admin dashboards, and business software solutions."
-  >
-
+  <meta property="og:title" content="ImhoTech Solutions | Scalable Web Applications">
+  <meta property="og:description" content="We build modern scalable web apps, dashboards, and business systems for companies and startups.">
   <meta property="og:type" content="website">
-
-  <meta
-    property="og:url"
-    content="https://imhotechsolutionservices.onrender.com"
-  >
-
-  <meta
-    property="og:image"
-    content="https://imhotechsolutionservices.onrender.com/assets/imhotecall.png"
-  >
-
+  <meta property="og:url" content="https://imhotechsolutionservices.onrender.com">
+  <meta property="og:image" content="https://imhotechsolutionservices.onrender.com/assets/imhotecall.png">
   <meta property="og:site_name" content="ImhoTech Solutions">
 
   <!-- =========================
-       TWITTER SEO
+       TWITTER CARD
   ========================== -->
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ImhoTech Solutions">
+  <meta name="twitter:description" content="Modern scalable web apps and software solutions.">
+  <meta name="twitter:image" content="https://imhotechsolutionservices.onrender.com/assets/imhotecall.png">
 
-  <meta
-    name="twitter:title"
-    content="ImhoTech Solutions"
-  >
-
-  <meta
-    name="twitter:description"
-    content="Modern web development and scalable software solutions for businesses and individuals."
-  >
-
-  <meta
-    name="twitter:image"
-    content="https://imhotechsolutionservices.onrender.com/assets/imhotecall.png"
-  >
-
-  <!-- =========================
-       BRAND THEME
-  ========================== -->
   <meta name="theme-color" content="#007bff">
 
   <!-- =========================
        FAVICON
   ========================== -->
-  <link
-    rel="icon"
-    type="image/png"
-    href="/assets/logo_imhotech.png"
-  >
+  <link rel="icon" href="/assets/logo_imhotech.png" type="image/png">
 
   <!-- =========================
-       TAILWIND CSS
+       CSS
   ========================== -->
-  <link
-    rel="stylesheet"
-    href="/src/output.css"
-  >
+  <link rel="stylesheet" href="/src/output.css">
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
   <!-- =========================
-       FONT AWESOME
-  ========================== -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-  >
-
-  <!-- =========================
-       STRUCTURED DATA SEO
+       STRUCTURED DATA
   ========================== -->
   <script type="application/ld+json">
   {
@@ -150,439 +73,121 @@
     "name": "ImhoTech Solutions",
     "url": "https://imhotechsolutionservices.onrender.com",
     "logo": "https://imhotechsolutionservices.onrender.com/assets/logo_imhotech.png",
-    "description": "ImhoTech Solutions is a software and web development brand focused on scalable web applications, responsive websites, business systems, and digital solutions.",
     "sameAs": [
       "https://github.com/imhologhomhetheophilus"
-    ]
+    ],
+    "description": "Software development brand building scalable web applications, dashboards, and digital systems."
   }
   </script>
 
 </head>
 
-<body class="bg-gray-950 text-white min-h-screen flex flex-col">
+<body class="bg-gray-950 text-white">
 
-  <!-- ================= NAVBAR ================= -->
-  <nav class="bg-gray-950 border-b border-gray-800 sticky top-0 z-50 shadow-2xl shadow-amber-900">
+<!-- ================= NAVBAR ================= -->
+<nav class="sticky top-0 bg-gray-950 border-b border-gray-800 z-50">
 
-    <div class="max-w-7xl mx-auto px-4 py-5 flex items-center justify-between">
+  <div class="max-w-7xl mx-auto px-4 py-5 flex justify-between items-center">
 
-      <!-- Logo -->
-      <div class="flex items-center gap-3">
-
-        <img src="/assets/logo_imhotech.png"
-          alt="logo"
-          class="w-12 h-12 object-cover animate-pulse">
-
-        <h1 class="text-2xl font-bold text-amber-200">
-          ImhoTech
-        </h1>
-
-      </div>
-
-      <!-- Desktop Nav -->
-      <ul class="hidden md:flex items-center gap-8 text-2xl">
-
-        <li>
-          <a href="#home"
-            class="text-amber-200 border-b-2 border-amber-200 pb-1">
-            Home
-          </a>
-        </li>
-
-        <li>
-          <a href="about.html"
-            class="hover:text-amber-200 transition duration-300">
-            About
-          </a>
-        </li>
-
-        <li>
-          <a href="services.html"
-            class="hover:text-amber-200 transition duration-300">
-            Services
-          </a>
-        </li>
-
-        <li>
-          <a href="portfolio.html"
-            class="hover:text-amber-200 transition duration-300">
-            Portfolio
-          </a>
-        </li>
-
-        <li>
-          <a href="blog.html"
-            class="hover:text-amber-200 transition duration-300">
-            Blog
-          </a>
-        </li>
-
-        <li>
-          <a href="contact.html"
-            class="bg-amber-200 text-black px-5 py-2 rounded-lg hover:scale-105 transition duration-300">
-            Contact
-          </a>
-        </li>
-
-      </ul>
-
-      <!-- Hamburger -->
-      <div class="md:hidden text-3xl cursor-pointer" id="hamburger">
-        <i class="fa-solid fa-bars"></i>
-      </div>
-
+    <div class="flex items-center gap-3">
+      <img src="/assets/logo_imhotech.png" class="w-10 h-10" alt="ImhoTech Logo">
+      <h1 class="text-xl font-bold text-amber-200">ImhoTech Solutions</h1>
     </div>
 
-    <!-- Mobile Menu -->
-    
-    <ul id="navitems"
-      class="hidden md:hidden flex-col gap-4 px-6 pb-6 text-lg bg-gray-900">
-
-      <li>
-        <a href="index.html" class="block text-amber-400">
-          Home
-        </a>
-      </li>
-
-      <li>
-        <a href="about.html" class="block hover:text-amber-400">
-          About
-        </a>
-      </li>
-
-      <li>
-        <a href="services.html" class="block hover:text-amber-400">
-          Services
-        </a>
-      </li>
-
-      <li>
-        <a href="portfolio.html" class="block hover:text-amber-400">
-          Portfolio
-        </a>
-      </li>
-      <li>
-        <a href="blog.html" class="block hover:text-amber-400">
-          Blog
-        </a>
-      </li>
-
-      <li>
-        <a href="contact.html"
-           class="inline-block   bg-amber-400 text-black px-4 py-2 rounded-lg">
-          Contact
-        </a>
-      </li>
-
+    <ul class="hidden md:flex gap-8">
+      <li><a href="#home" class="text-amber-200">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html" class="bg-amber-200 text-black px-4 py-2 rounded-lg">Contact</a></li>
     </ul>
 
+  </div>
 
-  </nav>
+</nav>
 
-  <!-- ================= MAIN ================= -->
-  <main class="flex-1 ">
+<!-- ================= HERO ================= -->
+ <main class="flex-1">
+<section id="home" class="px-6 py-20 max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
 
-    <!-- ================= HERO SECTION ================= -->
-    <section id="home" class="py-20">
+  <div>
+    <p class="text-amber-200 uppercase tracking-widest">Software & Web Development</p>
 
-      <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-16 items-center">
+    <h1 class="text-4xl md:text-5xl font-bold mt-4">
+      We Build <span class="text-amber-200">Scalable Web Applications</span> That Grow Businesses
+    </h1>
 
-        <!-- Left Content -->
-        <div>
+    <p class="mt-6 text-gray-300 leading-7">
+      ImhoTech Solutions designs and develops modern web applications, APIs, dashboards, and digital platforms using React, Node.js, and scalable architecture.
+    </p>
 
-          <p class="text-amber-200 uppercase tracking-widest mb-4">
-            Modern Digital Solutions
-          </p>
+    <div class="mt-8 flex gap-4 flex-wrap">
+      <a href="contact.html" class="bg-amber-200 text-black px-6 py-3 rounded-lg">Get Started</a>
+      <a href="portfolio.html" class="border border-amber-200 px-6 py-3 rounded-lg">View Work</a>
+    </div>
+  </div>
 
-          <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-8">
+  <img src="assets/laptop_imhotech.png" alt="developer workspace" class="w-full">
 
-            We Build Modern Web
-            <span class="text-amber-200">
-              Solutions
-            </span>
-            That Drive Results
+</section>
 
-          </h1>
+<!-- ================= SERVICES ================= -->
+<section class="max-w-7xl mx-auto px-6 py-20">
 
-          <p class="text-gray-300 text-lg leading-8 mb-10 max-w-2xl">
+  <h2 class="text-3xl font-bold text-center mb-12">What We Do</h2>
 
-            Full-stack development, responsive design,
-            and scalable digital experiences built to
-            help businesses grow and succeed online.
+  <div class="grid md:grid-cols-3 gap-8">
 
-          </p>
+    <div class="p-6 bg-gray-900 rounded-xl">
+      <h3 class="text-xl text-amber-200">Web Applications</h3>
+      <p class="text-gray-400 mt-3">Scalable web apps built with modern frameworks.</p>
+    </div>
 
-          <!-- Buttons -->
-          <div class="flex flex-wrap items-center gap-5">
+    <div class="p-6 bg-gray-900 rounded-xl">
+      <h3 class="text-xl text-amber-200">Backend Systems</h3>
+      <p class="text-gray-400 mt-3">Secure APIs using Node.js & Express.</p>
+    </div>
 
-            <a href="contact.html"
-              class="bg-amber-200 text-black px-6 py-3 rounded-lg hover:scale-105 transition duration-300 hover:shadow-lg hover:shadow-amber-200/20">
+    <div class="p-6 bg-gray-900 rounded-xl">
+      <h3 class="text-xl text-amber-200">Business Dashboards</h3>
+      <p class="text-gray-400 mt-3">Real-time analytics and admin systems.</p>
+    </div>
 
-              Get Started
+  </div>
 
-            </a>
+</section>
 
-            <a href="portfolio.html"
-              class="flex items-center gap-3 text-lg hover:text-amber-200 transition duration-300 animate-pulse">
+<!-- ================= CTA ================= -->
+<section class="text-center py-20 bg-gray-900">
 
-              <span>
-                View Portfolio
-              </span>
+  <h2 class="text-3xl font-bold">Ready to Build Your Project?</h2>
+  <p class="text-gray-400 mt-4">Let’s create something scalable and powerful.</p>
 
-              <i class="fa-solid fa-play border border-amber-200 rounded-full py-3 px-4 text-xl"></i>
+  <a href="contact.html" class="mt-6 inline-block bg-amber-200 text-black px-8 py-3 rounded-lg">
+    Start Project
+  </a>
 
-            </a>
+</section>
+</main>
 
-          </div>
+<!-- ================= FOOTER ================= -->
+  <footer class="bg-black border-t border-gray-800">
 
-        </div>
+    <div class="container mx-auto px-6 py-12">
 
-        <!-- Right Image -->
-        <div class="flex justify-center">
-
-          <img src="assets/laptop_imhotech.png"
-            alt="hero-image"
-            class="w-full max-w-xl object-cover">
-
-        </div>
-
-      </div>
-
-    </section>
-
-    <!-- ================= STATS ================= -->
-    <section class="py-16 bg-gray-900">
-
-      <div class="max-w-7xl mx-auto px-4 grid grid-cols-2  md:grid-cols-4 lg:grid-cols-4 gap-8 text-center">
-
-        <div>
-          <h2 class="text-4xl font-bold text-amber-200 mb-2">
-            10+
-          </h2>
-
-          <p class="text-gray-300">
-            Projects Completed
-          </p>
-        </div>
-
-        <div>
-          <h2 class="text-4xl font-bold text-amber-200 mb-2">
-            10+
-          </h2>
-
-          <p class="text-gray-300">
-            Happy Clients
-          </p>
-        </div>
-
-        <div>
-          <h2 class="text-4xl font-bold text-amber-200 mb-2">
-            5+
-          </h2>
-
-          <p class="text-gray-300">
-            Technologies Used
-          </p>
-        </div>
-
-        <div>
-          <h2 class="text-4xl font-bold text-amber-200 mb-2">
-            24/7
-          </h2>
-
-          <p class="text-gray-300">
-            Support
-          </p>
-        </div>
-
-      </div>
-
-    </section>
-
-    <!-- ================= SERVICES ================= -->
-    <section class="py-24">
-
-      <div class="max-w-7xl mx-auto px-4 cursor-pointer">
-
-        <div class="text-center mb-16">
-
-          <p class="text-amber-200 uppercase tracking-widest mb-3">
-            Our Services
-          </p>
-
-          <h2 class="text-4xl font-bold">
-            What We Offer
-          </h2>
-
-        </div>
-
-        <!-- Cards -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-
-          <!-- Card -->
-          <div class="bg-gray-900 p-8 rounded-2xl hover:-translate-y-2 transition-all duration-300 border border-gray-800">
-
-            <i class="fa-solid fa-code text-5xl text-amber-200 mb-6"></i>
-
-            <h3 class="text-2xl font-semibold mb-4">
-              Web Development
-            </h3>
-
-            <p class="text-gray-300 leading-7">
-              Modern responsive websites and scalable web applications.
-            </p>
-
-          </div>
-
-          <!-- Card -->
-          <div class="bg-gray-900 p-8 rounded-2xl hover:-translate-y-2 transition-all duration-300 border border-gray-800">
-
-            <i class="fa-solid fa-mobile-screen text-5xl text-amber-200 mb-6"></i>
-
-            <h3 class="text-2xl font-semibold mb-4">
-              Responsive Design
-            </h3>
-
-            <p class="text-gray-300 leading-7">
-              Mobile-first user interfaces optimized for all devices.
-            </p>
-
-          </div>
-
-          <!-- Card -->
-          <div class="bg-gray-900 p-8 rounded-2xl hover:-translate-y-2 transition-all duration-300 border border-gray-800">
-
-            <i class="fa-solid fa-server text-5xl text-amber-200 mb-6"></i>
-
-            <h3 class="text-2xl font-semibold mb-4">
-              Backend Development
-            </h3>
-
-            <p class="text-gray-300 leading-7">
-              Secure backend systems and scalable APIs for applications.
-            </p>
-
-          </div>
-
-          <!-- Card -->
-          <div class="bg-gray-900 p-8 rounded-2xl hover:-translate-y-2 transition-all duration-300 border border-gray-800">
-
-            <i class="fa-solid fa-gauge-high text-5xl text-amber-200 mb-6"></i>
-
-            <h3 class="text-2xl font-semibold mb-4">
-              Optimization
-            </h3>
-
-            <p class="text-gray-300 leading-7">
-              Improving performance, speed, and user experience.
-            </p>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-
-    <!-- ================= ABOUT PREVIEW ================= -->
-    <section class="py-24 bg-gray-900">
-
-      <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-16 items-center">
-
-        <!-- Image -->
-        <div>
-
-          <img src="assets/web_dev.png"
-            alt="about"
-            class="rounded-4xl animate-pulse w-full object-cover">
-
-        </div>
-
-        <!-- Content -->
-        <div>
-
-          <p class="text-amber-200 uppercase tracking-widest mb-4">
-            About Us
-          </p>
-
-          <h2 class="text-4xl font-bold mb-8">
-            We Create Modern &
-            Scalable Digital Experiences
-          </h2>
-
-          <p class="text-gray-300 text-lg leading-8 mb-8">
-
-            ImhoTech Solutions is focused on building
-            responsive websites, scalable applications,
-            and clean user experiences using modern technologies.
-
-          </p>
-
-          <a href="about.html"
-            class="bg-amber-200 text-black px-6 py-3 rounded-lg inline-block hover:scale-105 transition duration-300 hover:shadow-lg hover:shadow-amber-200">
-
-            Learn More
-
-          </a>
-
-        </div>
-
-      </div>
-
-    </section>
-
-    <!-- ================= CTA ================= -->
-    <section class="py-24">
-
-      <div class="max-w-5xl mx-auto px-4 text-center">
-
-        <h2 class="text-4xl md:text-5xl font-bold mb-8">
-
-          Ready To Build Something Amazing?
-
-        </h2>
-
-        <p class="text-gray-300 text-lg leading-8 mb-10 max-w-3xl mx-auto">
-
-          Let’s transform your ideas into modern digital solutions
-          with clean design, responsive layouts,
-          and scalable technologies.
-
-        </p>
-
-        <a href="contact.html"
-          class="bg-amber-200 text-black px-8 py-4 rounded-lg text-lg hover:scale-105 transition duration-300 inline-block shadow-lg shadow-amber-200/20">
-
-          Start a Project
-
-        </a>
-
-      </div>
-
-    </section>
-
-  </main>
-
-  <!-- ================= FOOTER ================= -->
-  <footer class="bg-black border-t border-gray-800 py-12">
-
-    <div class="max-w-7xl mx-auto px-4">
-
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
 
         <!-- Brand -->
         <div>
 
-          <h2 class="text-3xl font-bold text-amber-200 mb-4">
+          <h2 class="text-3xl font-bold text-amber-400 mb-4">
             ImhoTech
           </h2>
 
-          <p class="text-gray-400 leading-7">
-
-            Building scalable and modern web solutions
-            for businesses and individuals.
-
+          <p class="text-gray-400 leading-relaxed">
+            Building modern websites, scalable systems, and digital
+            experiences for businesses worldwide.
           </p>
 
         </div>
@@ -590,31 +195,63 @@
         <!-- Links -->
         <div>
 
-          <h3 class="text-3xl font-semibold mb-5">
+          <h3 class="text-xl font-semibold mb-4">
             Quick Links
           </h3>
 
           <ul class="space-y-3 text-gray-400">
 
-            <li><a href="#home" class="hover:text-amber-200">Home</a></li>
-            <li><a href="about.html" class="hover:text-amber-200">About</a></li>
-            <li><a href="services.html" class="hover:text-amber-200">Services</a></li>
-            <li><a href="portfolio.html" class="hover:text-amber-200">Portfolio</a></li>
+            <li>
+              <a href="index.html" class="hover:text-amber-400">
+                Home
+              </a>
+            </li>
+
+            <li>
+              <a href="about.html" class="hover:text-amber-400">
+                About
+              </a>
+            </li>
+
+            <li>
+              <a href="services.html" class="hover:text-amber-400">
+                Services
+              </a>
+            </li>
 
           </ul>
 
         </div>
 
-        <!-- Social -->
+        <!-- Contact -->
         <div>
 
-          <h3 class="text-3xl font-semibold mb-5">
-            Follow Us
+          <h3 class="text-xl font-semibold mb-4">
+            Contact
           </h3>
 
-          <div class="flex gap-5 text-2xl text-amber-200">
+          <div class="space-y-3 text-gray-400">
 
-            <a href="https://www.facebook.com/Jobjacobtheo">
+            <p>
+              <i class="fa-solid fa-envelope text-amber-400 mr-2"></i>
+              imhologhomhetheophilu.com
+            </p>
+
+            <p>
+              <i class="fa-solid fa-phone text-amber-400 mr-2"></i>
+              +234 810 797 6604
+            </p>
+
+            <p>
+              <i class="fa-solid fa-location-dot text-amber-400 mr-2"></i>
+              Abuja, Nigeria
+            </p>
+
+          </div>
+
+        </div>
+        <div class=" flex gap-5 text-2xl text-amber-200 justify-center md:justify-start mt-6 md:mt-0">
+           <a href="https://www.facebook.com/Jobjacobtheo">
               <i class="fa-brands fa-facebook text-3xl"></i>
             </a>
 
@@ -629,17 +266,16 @@
             <a href="https://github.com/imhologhomhetheophilus?tab=repositories">
               <i class="fa-brands fa-github text-3xl"></i>
             </a>
-
-          </div>
-
         </div>
 
       </div>
 
       <!-- Bottom -->
-      <div class="border-t border-gray-800 mt-10 pt-8 text-center text-gray-500">
+      <div class="border-t border-gray-800 mt-10 pt-6 text-center text-gray-500">
 
-        © 2026 ImhoTech Solutions. All rights reserved.
+        <p>
+          © 2026 ImhoTech Solutions. All Rights Reserved.
+        </p>
 
       </div>
 
@@ -647,13 +283,8 @@
 
   </footer>
 
-  <!-- ================= SCRIPT ================= -->
-  <script src="script.js">
-
-  
-
-  </script>
+  <!-- ================= MOBILE MENU SCRIPT ================= -->
+  <script src="script.js"></script>
 
 </body>
-
 </html>
