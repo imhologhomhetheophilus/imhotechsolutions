@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /login.php
+Disallow: /dashboard.php
+Disallow: /add_item.php
+Disallow: /transfer.php
+Disallow: /transfer_history.php
+
+Allow: /
+
+Sitemap: https://imhotechsolutionservices.onrender.com/sitemap.xml
